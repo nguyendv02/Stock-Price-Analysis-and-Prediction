@@ -9,9 +9,7 @@ This project aims to predict both the stock price and the quantity of stocks pur
 
 Training data for the model includes recorded stock prices, quantities of stocks purchased, and their corresponding timestamps.
 
-## Process
-
-### EDA
+## EDA
 
 Visualize to examine the data distribution.
 
@@ -29,7 +27,7 @@ Therefore, we should remove the following features: 'Ticker', 'Low', 'High', 'Op
 
 <img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/40625d45-2351-4511-a69b-aadaf7001dee" width="200">
 
-### Modeling
+## Modeling
 
 Data Preprocessing: Normalize 3 attributes: 'Close', 'Volume', and scale, and normalize 'time_scaled' sequence data to fit time series models (in this case, sequence length is 400).
 
