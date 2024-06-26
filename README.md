@@ -45,3 +45,7 @@ This section presents the results of the model on a test set consisting of 500 d
 Below is a small demo executed directly in a notebook:
 
 <image src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/2feab3c8-1cc2-4c8b-b1c2-16788ba43e6e" width="600">
+
+
+### Contact:
+Email: nguyendv02@gmail.com or 20520657@gm.uit.edu.vn
