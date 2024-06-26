@@ -13,11 +13,15 @@ Training data for the model includes recorded stock prices, quantities of stocks
 
 Visualize to examine the data distribution.
 
-<img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/3ca2fe09-a4b0-4d0f-8178-f7055597159f" width="400">
+<p align="center">
+  <img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/3ca2fe09-a4b0-4d0f-8178-f7055597159f" width="400">
+</p>
 
 Calculate the correlation matrix and eliminate attributes with high correlation.
 
-<img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/681fc615-4c40-40d1-9bb2-319e327310dd" width="400">
+<p align="center">
+  <img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/681fc615-4c40-40d1-9bb2-319e327310dd" width="400">
+</p>
 
 After plotting the value distributions and Pearson correlations, we observe the following three points:
 - The features 'Low', 'High', 'Open', and 'Close' have very high correlation among them.
@@ -25,7 +29,9 @@ After plotting the value distributions and Pearson correlations, we observe the 
 - The ticker for all records is 'FPT'.
 Therefore, we should remove the following features: 'Ticker', 'Low', 'High', 'Open', and 'Open Interest' as they do not provide significant value for the target variable.
 
-<img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/40625d45-2351-4511-a69b-aadaf7001dee" width="200">
+<p align="center">
+  <img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/40625d45-2351-4511-a69b-aadaf7001dee" width="200">
+</p>
 
 ## Modeling
 
@@ -40,12 +46,15 @@ This section presents the results of the model on a test set consisting of 500 d
 - The top figure represents stock prices.
 - The bottom figure represents the volume of stocks purchased.
 
-<img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/9cd55533-d3c2-40dc-a504-2a6f64ada053" width="600">
+<p align="center">
+  <img src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/9cd55533-d3c2-40dc-a504-2a6f64ada053" width="600">
+</p>
 
 Below is a small demo executed directly in a notebook:
 
-<image src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/2feab3c8-1cc2-4c8b-b1c2-16788ba43e6e" width="600">
-
+<p align="center">
+  <image src="https://github.com/nguyendv02/Stock-Price-Analysis-and-Prediction/assets/137906492/2feab3c8-1cc2-4c8b-b1c2-16788ba43e6e" width="600">
+  </image>
 
 ### Contact:
 Email: nguyendv02@gmail.com or 20520657@gm.uit.edu.vn
